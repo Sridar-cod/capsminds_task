@@ -17,7 +17,7 @@ function App() {
           <Route path="/appointments" element={<Appointments />} />
           <Route path="/conditions/:id" element={<ConditionDetail />} />
           <Route path="/doctors/:id" element={<DoctorDetail />} />
-          <Route path="/schedule" element={<AppointmentForm />} />
+          <Route path="/doctors/:id/schedule" element={<AppointmentForm />} />
         </Routes>
       </Container>
     </Router>

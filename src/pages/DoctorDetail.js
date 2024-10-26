@@ -44,11 +44,11 @@ function DoctorDetail() {
                     </Typography>
 
                     <Box mt={3} display="flex" justifyContent="center">
-                        <Link to={'/schedule'}>
+                        <Link to={`/doctors/${id}/schedule`}  >
                         <Button 
                             variant="contained" 
                             color="primary" 
-                            // href={"/schedule"} 
+                            href="/schedule" 
                             sx={{ mt: 2 }}
                         >
                             Schedule Appointment

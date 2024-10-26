@@ -69,7 +69,8 @@ function AppointmentForm() {
                 required
                 margin="normal"
               />
-              <TextField
+                <TextField
+                  type="number"
                 label="Contact"
                 name="contact"
                 value={formData.contact}

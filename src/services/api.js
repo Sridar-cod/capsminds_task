@@ -1,5 +1,4 @@
-// const BASE_URL = "http://localhost:3000";
-const BASE_URL = "https://capsminds-task.onrender.com";
+const BASE_URL = "http://localhost:3000";
 const CONDITIONS_URL = `${BASE_URL}/data/conditions.json`;
 const DOCTORS_URL = `${BASE_URL}/data/doctors.json`;
 
