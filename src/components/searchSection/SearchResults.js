@@ -63,7 +63,6 @@ function SearchResults({ results, type }) {
                   </Card>
                 </Link>
               </Grid>
-              // <ResultCard item={item} type={type} />
             ))
         ) : (
         

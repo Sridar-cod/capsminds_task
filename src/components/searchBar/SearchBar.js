@@ -1,4 +1,3 @@
-// src/components/SearchBar.js
 import { Box, TextField } from '@mui/material';
 
 function SearchBar({ setQuery,query }) {
