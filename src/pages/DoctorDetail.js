@@ -47,7 +47,7 @@ function DoctorDetail() {
                         <Button 
                             variant="contained" 
                             color="primary" 
-                            href={`/doctors/${id}/schedule`} 
+                            href={"/schedule"} 
                             sx={{ mt: 2 }}
                         >
                             Schedule Appointment
