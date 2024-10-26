@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Typography, Card, CardContent, Button, Box } from '@mui/material';
 import { getDoctorDetail } from '../services/api';
 
@@ -44,14 +44,16 @@ function DoctorDetail() {
                     </Typography>
 
                     <Box mt={3} display="flex" justifyContent="center">
+                        <Link to={'/schedule'}>
                         <Button 
                             variant="contained" 
                             color="primary" 
-                            href={"/schedule"} 
+                            // href={"/schedule"} 
                             sx={{ mt: 2 }}
                         >
                             Schedule Appointment
-                        </Button>
+                            </Button>
+                            </Link>
                     </Box>
                 </CardContent>
             </Card>
