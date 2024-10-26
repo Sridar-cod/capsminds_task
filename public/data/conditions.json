@@ -1,0 +1,92 @@
+[
+  { 
+    "id": 1, 
+    "name": "Diabetes", 
+    "description": "A chronic condition that affects blood sugar.", 
+    "fullDescription": "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. There are two main types: Type 1 and Type 2. Treatment involves managing diet, insulin levels, and lifestyle.", 
+    "symptoms": ["Increased thirst", "Frequent urination", "Extreme fatigue", "Blurred vision"],
+    "causes": ["Genetic factors", "Obesity", "Lack of physical activity", "Poor diet"],
+    "treatments": ["Insulin therapy", "Diet and exercise", "Blood sugar monitoring"]
+  },
+  { 
+    "id": 2, 
+    "name": "Asthma", 
+    "description": "A condition that causes breathing difficulties.", 
+    "fullDescription": "Asthma is a condition in which your airways narrow and swell and may produce extra mucus, leading to difficulty breathing. It can be triggered by allergens, exercise, or stress.", 
+    "symptoms": ["Shortness of breath", "Chest tightness", "Wheezing", "Coughing at night"],
+    "causes": ["Allergens", "Air pollution", "Respiratory infections"],
+    "treatments": ["Inhalers", "Avoiding triggers", "Long-term control medications"]
+  },
+  { 
+    "id": 3, 
+    "name": "Hypertension", 
+    "description": "High blood pressure affecting blood vessels.", 
+    "fullDescription": "Hypertension is a chronic condition in which the blood pressure in the arteries is persistently elevated. It can lead to severe complications if not managed properly.", 
+    "symptoms": ["Headaches", "Shortness of breath", "Nosebleeds", "Flushing"],
+    "causes": ["Obesity", "Genetics", "High salt intake", "Lack of physical activity"],
+    "treatments": ["Lifestyle changes", "Medication", "Regular monitoring"]
+  },
+  { 
+    "id": 4, 
+    "name": "Arthritis", 
+    "description": "Inflammation of joints causing pain and stiffness.", 
+    "fullDescription": "Arthritis refers to a group of more than 100 conditions that affect the joints, leading to pain, swelling, and stiffness. It can affect anyone and is commonly seen in older adults.", 
+    "symptoms": ["Joint pain", "Swelling", "Stiffness", "Reduced range of motion"],
+    "causes": ["Genetic predisposition", "Injury", "Infection"],
+    "treatments": ["Physical therapy", "Medication", "Surgery"]
+  },
+  { 
+    "id": 5, 
+    "name": "Chronic Kidney Disease", 
+    "description": "Progressive loss of kidney function over time.", 
+    "fullDescription": "Chronic kidney disease (CKD) is a long-term condition where the kidneys do not work effectively. It can be caused by various factors, including diabetes and high blood pressure.", 
+    "symptoms": ["Fatigue", "Swelling", "Shortness of breath", "Nausea"],
+    "causes": ["Diabetes", "High blood pressure", "Genetic factors"],
+    "treatments": ["Medication", "Dietary changes", "Dialysis"]
+  },
+  { 
+    "id": 6, 
+    "name": "Alzheimer's Disease", 
+    "description": "A progressive disease that destroys memory.", 
+    "fullDescription": "Alzheimer's disease is a progressive neurological disorder that causes the brain to shrink and brain cells to die. It affects memory, thinking, and behavior.", 
+    "symptoms": ["Memory loss", "Difficulty communicating", "Confusion", "Changes in behavior"],
+    "causes": ["Age", "Family history", "Genetics"],
+    "treatments": ["Medications", "Cognitive training", "Supportive care"]
+  },
+  { 
+    "id": 7, 
+    "name": "Parkinson's Disease", 
+    "description": "A disorder of the central nervous system.", 
+    "fullDescription": "Parkinson's disease is a progressive neurological disorder that affects movement. It develops gradually, often starting with a tremor in one hand.", 
+    "symptoms": ["Tremors", "Stiffness", "Slowed movement", "Balance problems"],
+    "causes": ["Genetic factors", "Environmental triggers"],
+    "treatments": ["Medications", "Physical therapy", "Surgery"]
+  },
+  { 
+    "id": 8, 
+    "name": "Osteoporosis", 
+    "description": "Weakening of bones, making them fragile.", 
+    "fullDescription": "Osteoporosis is a condition in which bones become weak and brittle. It is often called a 'silent disease' because bone loss occurs without symptoms.", 
+    "symptoms": ["Fractures", "Back pain", "Loss of height", "Posture changes"],
+    "causes": ["Age", "Hormonal changes", "Low calcium intake"],
+    "treatments": ["Bone density tests", "Medications", "Dietary supplements"]
+  },
+  { 
+    "id": 9, 
+    "name": "COPD", 
+    "description": "A group of lung diseases that block airflow.", 
+    "fullDescription": "Chronic obstructive pulmonary disease (COPD) is a lung disease characterized by chronic obstruction of airflow that interferes with normal breathing.", 
+    "symptoms": ["Shortness of breath", "Chronic cough", "Wheezing", "Chest tightness"],
+    "causes": ["Smoking", "Air pollution", "Genetics"],
+    "treatments": ["Medications", "Pulmonary rehabilitation", "Lifestyle changes"]
+  },
+  { 
+    "id": 10, 
+    "name": "Stroke", 
+    "description": "Damage to the brain from interruption of blood supply.", 
+    "fullDescription": "A stroke occurs when the blood supply to part of the brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients.", 
+    "symptoms": ["Sudden numbness", "Confusion", "Trouble speaking", "Vision problems"],
+    "causes": ["High blood pressure", "Heart disease", "Diabetes"],
+    "treatments": ["Emergency treatment", "Rehabilitation", "Medications"]
+  }
+]

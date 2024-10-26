@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "fullName": "Dr. John Smith",
+    "specialty": "Endocrinologist",
+    "location": "New York, NY",
+    "summary": "Expert in managing diabetes and thyroid disorders.",
+    "availability": "Mon-Fri: 9 AM - 5 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "10 years of experience in endocrinology.",
+      "education": "MD from Harvard Medical School",
+      "patientsTreated": 2000,
+      "treatmentsOffered": ["Diabetes management", "Thyroid treatment", "Hormone therapy"]
+    }
+  },
+  {
+    "id": 2,
+    "fullName": "Dr. Sarah Lee",
+    "specialty": "Pulmonologist",
+    "location": "Los Angeles, CA",
+    "summary": "Specializes in respiratory conditions, including asthma and COPD.",
+    "availability": "Mon-Sat: 10 AM - 6 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "8 years of experience in pulmonology.",
+      "education": "MD from Stanford University",
+      "patientsTreated": 1500,
+      "treatmentsOffered": ["Asthma management", "COPD treatment", "Lung function tests"]
+    }
+  },
+  {
+    "id": 3,
+    "fullName": "Dr. Emily Davis",
+    "specialty": "Cardiologist",
+    "location": "Chicago, IL",
+    "summary": "Expert in heart diseases and cardiovascular health.",
+    "availability": "Mon-Fri: 8 AM - 4 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "12 years of experience in cardiology.",
+      "education": "MD from Johns Hopkins University",
+      "patientsTreated": 2500,
+      "treatmentsOffered": ["Heart disease management", "ECG interpretation", "Stress testing"]
+    }
+  },
+  {
+    "id": 4,
+    "fullName": "Dr. Michael Johnson",
+    "specialty": "Orthopedic Surgeon",
+    "location": "Houston, TX",
+    "summary": "Specializes in bone and joint health.",
+    "availability": "Mon-Fri: 9 AM - 5 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "15 years of experience in orthopedics.",
+      "education": "MD from Mayo Clinic Alix School of Medicine",
+      "patientsTreated": 3000,
+      "treatmentsOffered": ["Joint replacement", "Fracture care", "Sports medicine"]
+    }
+  },
+  {
+    "id": 5,
+    "fullName": "Dr. Olivia Brown",
+    "specialty": "Dermatologist",
+    "location": "Miami, FL",
+    "summary": "Expert in skin conditions and cosmetic procedures.",
+    "availability": "Mon-Fri: 10 AM - 6 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "7 years of experience in dermatology.",
+      "education": "MD from University of Florida College of Medicine",
+      "patientsTreated": 1200,
+      "treatmentsOffered": ["Acne treatment", "Skin cancer screenings", "Laser therapy"]
+    }
+  },
+  {
+    "id": 6,
+    "fullName": "Dr. Daniel White",
+    "specialty": "Neurologist",
+    "location": "San Francisco, CA",
+    "summary": "Specializes in brain and nervous system disorders.",
+    "availability": "Mon-Fri: 9 AM - 5 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "10 years of experience in neurology.",
+      "education": "MD from University of California, San Francisco",
+      "patientsTreated": 1800,
+      "treatmentsOffered": ["Epilepsy management", "Stroke care", "Neuropsychological testing"]
+    }
+  },
+  {
+    "id": 7,
+    "fullName": "Dr. Sophia Wilson",
+    "specialty": "Pediatrician",
+    "location": "Atlanta, GA",
+    "summary": "Expert in children's health and development.",
+    "availability": "Mon-Sat: 9 AM - 5 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "5 years of experience in pediatrics.",
+      "education": "MD from Emory University School of Medicine",
+      "patientsTreated": 1000,
+      "treatmentsOffered": ["Routine check-ups", "Immunizations", "Developmental assessments"]
+    }
+  },
+  {
+    "id": 8,
+    "fullName": "Dr. Lucas Martinez",
+    "specialty": "Gastroenterologist",
+    "location": "Seattle, WA",
+    "summary": "Specializes in digestive system disorders.",
+    "availability": "Mon-Fri: 8 AM - 4 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "9 years of experience in gastroenterology.",
+      "education": "MD from University of Washington School of Medicine",
+      "patientsTreated": 1400,
+      "treatmentsOffered": ["Endoscopy", "IBS treatment", "Liver disease management"]
+    }
+  },
+  {
+    "id": 9,
+    "fullName": "Dr. Mia Thompson",
+    "specialty": "Oncologist",
+    "location": "Phoenix, AZ",
+    "summary": "Expert in cancer diagnosis and treatment.",
+    "availability": "Mon-Fri: 9 AM - 5 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "11 years of experience in oncology.",
+      "education": "MD from Stanford University",
+      "patientsTreated": 2200,
+      "treatmentsOffered": ["Chemotherapy", "Radiation therapy", "Palliative care"]
+    }
+  },
+  {
+    "id": 10,
+    "fullName": "Dr. Ethan Clark",
+    "specialty": "Psychiatrist",
+    "location": "Boston, MA",
+    "summary": "Specializes in mental health and emotional well-being.",
+    "availability": "Mon-Fri: 10 AM - 6 PM",
+    "appointments": [],
+    "fullProfile": {
+      "experience": "6 years of experience in psychiatry.",
+      "education": "MD from Yale University School of Medicine",
+      "patientsTreated": 900,
+      "treatmentsOffered": ["Therapy", "Medication management", "Psychiatric evaluations"]
+    }
+  }
+]
+
