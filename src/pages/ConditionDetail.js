@@ -7,7 +7,7 @@ function ConditionDetail() {
   const { id } = useParams();
 
   const [condition, setCondition] = useState(null);
-
+                              
   useEffect(() => {
     const fetchData = async () => {
       const result = await getConditionDetail(id);
@@ -55,7 +55,7 @@ function ConditionDetail() {
             </Typography>
 
             <Box mt={3}>
-              <Link to="/" style={{ textDecoration: "none", color: "#1976d2" }}>
+              <Link to="/dashboard" style={{ textDecoration: "none", color: "#1976d2" }}>
                 Back to search
               </Link>
             </Box>

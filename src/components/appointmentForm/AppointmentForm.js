@@ -9,11 +9,13 @@ import {
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import ConfirmationView from "./ConfirmationView";
+import { useDispatch } from "react-redux";
+import { setAppointments } from "../../slices/appointmentsSlices";
 
 const saveToLocalStorage = (key, data) => {
-  const existingData = JSON.parse(localStorage.getItem(key)) || [];
-  existingData.push(data);
-  localStorage.setItem(key, JSON.stringify(existingData));
+  // const existingData = JSON.parse(localStorage.getItem(key)) || [];
+  // existingData.push(data);
+  // localStorage.setItem(key, JSON.stringify(existingData));
 };
 
 function AppointmentForm() {
@@ -23,6 +25,8 @@ function AppointmentForm() {
     reason: "",
   });
   const [confirmation, setConfirmation] = useState(false);
+  const dispatch = useDispatch();
+
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -32,7 +36,8 @@ function AppointmentForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.name && formData.contact && formData.reason) {
-      saveToLocalStorage("appointments", formData);
+      dispatch(setAppointments(formData));
+      // saveToLocalStorage("appointments", formData);
       setConfirmation(true);
     }
   };
@@ -42,7 +47,12 @@ function AppointmentForm() {
   };
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" minHeight="80vh">
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="80vh"
+    >
       <Card sx={{ maxWidth: 500, p: 3, boxShadow: 3, borderRadius: 2 }}>
         <CardContent>
           <Typography variant="h5" color="primary" gutterBottom>
@@ -61,33 +71,45 @@ function AppointmentForm() {
           ) : (
             <form onSubmit={handleSubmit}>
               <TextField
-                label="Name"
+                label={
+                  <>
+                    Name <span style={{ color: "red" }}>*</span>
+                  </>
+                }
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
                 fullWidth
-                required
+                inputProps={{ "aria-required": true }}
                 margin="normal"
               />
-                <TextField
-                  type="number"
-                label="Contact"
+              <TextField
+                type="number"
+                label={
+                  <>
+                    Contact <span style={{ color: "red" }}>*</span>
+                  </>
+                }
                 name="contact"
                 value={formData.contact}
                 onChange={handleChange}
                 fullWidth
-                required
+                inputProps={{ "aria-required": true }}
                 margin="normal"
               />
               <TextField
-                label="Reason"
+                label={
+                  <>
+                    Reason <span style={{ color: "red" }}>*</span>
+                  </>
+                }
                 name="reason"
                 value={formData.reason}
                 onChange={handleChange}
                 fullWidth
                 multiline
                 rows={4}
-                required
+                inputProps={{ "aria-required": true }}
                 margin="normal"
               />
               <Button
@@ -108,4 +130,3 @@ function AppointmentForm() {
 }
 
 export default AppointmentForm;
-

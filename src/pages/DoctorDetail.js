@@ -16,10 +16,10 @@ function DoctorDetail() {
     }, [id]);
 
     return doctor && (
-        <Box 
-          display="flex" 
-          justifyContent="center" 
-          alignItems="center" 
+        <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
           minHeight="80vh"
         >
             <Card sx={{ maxWidth: 600, p: 2, boxShadow: 4, borderRadius: 2 }}>
@@ -45,10 +45,10 @@ function DoctorDetail() {
 
                     <Box mt={3} display="flex" justifyContent="center">
                         <Link to={`/doctors/${id}/schedule`}  >
-                        <Button 
-                            variant="contained" 
-                            color="primary" 
-                            href="/schedule" 
+                        <Button
+                            variant="contained"
+                            color="primary"
+                            href="/schedule"
                             sx={{ mt: 2 }}
                         >
                             Schedule Appointment
